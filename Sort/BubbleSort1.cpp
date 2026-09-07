@@ -1,0 +1,43 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <utility>
+
+void BubbleSort(std::vector<int>& arr) {
+    int n = arr.size();
+    for (int i = 0; i < n - 1; ++i) {
+        bool swapped = false;
+        
+        for (int j = 0; j < n - i - 1; ++j) {
+            if (arr[j] < arr[j + 1]) {
+                std::swap(arr[j], arr[j + 1]);
+                swapped = true;
+            }
+        }
+     
+        if (!swapped) {
+            break;
+        }
+    }
+}
+
+int main() {
+    std::ios_base::sync_with_stdio(false);
+    std::cin.tie(NULL);
+
+    std::vector<int> arr;
+    int num;
+
+    while (std::cin >> num) {
+        arr.push_back(num);
+    }
+
+    BubbleSort(arr);
+
+    for (size_t i = 0; i < arr.size(); ++i) {
+        std::cout << arr[i] << (i + 1 == arr.size() ? "" : " ");
+    }
+    std::cout << std::endl;
+
+    return 0;
+}
