@@ -1,0 +1,5 @@
+dist = list(map(int, input().split()))
+price = list(map(int, input().split()))
+dist.sort(reverse=True)
+price.sort()
+print(sum(dist[i]*price[i] for i in range(len(dist))))
