@@ -1,5 +1,5 @@
 # Алгоритмы и структуры данных
 ## Сортировки
-* [Условия](Sort/README.md)
+* [Файлы](Sort) - [Условия](Sort/README.md)
 ## Бинарный поиск
-* [Условия](BinarySearch/README.md)
+* [Файлы](BinarySearch) - [Условия](BinarySearch/README.md)
