@@ -65,7 +65,7 @@ DONE
 2
 .5
 ```
-[Решение](BinarySearchTree.cpp)
+[Решение](BinaryTree.cpp)
 ---
 
 # Количество уровней дерева
