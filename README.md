@@ -9,3 +9,5 @@
 * [Файлы](StackQueueDeque) - [Условия](StackQueueDeque/README.md)
 ## Куча
 * [Файлы](Heap) - [Условия](Heap/README.md)
+## Бинарное дерево поиска
+* [Файлы](BinarySearchTree) - [Условия](BinarySearchTree/README.md)
